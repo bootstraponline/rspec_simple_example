@@ -9,3 +9,5 @@ A simple rspec example
 #### run
 
 > $ PARALLEL_SPLIT_TEST_PROCESSES=4 parallel_split_test spec/
+
+> $ rspec_flake 3 rspec
