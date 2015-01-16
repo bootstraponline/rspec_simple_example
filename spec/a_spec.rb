@@ -10,4 +10,9 @@ describe 'a' do
   it 'a 2' do
     puts 'a 2'
   end
+
+  it 'a 3' do
+    puts 'a 3'
+    expect(1).to eq(2)
+  end
 end
